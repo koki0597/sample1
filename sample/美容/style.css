@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+header {
+  height: 20px;
+  width: 100%;
+  background-color: rgba(175, 216, 199, 0.9);
+  position:fixed;
+  top:0px;
+}
+
+.top-wrapper {
+  height: 70px;
+  width:100%;
+  background-color: rgba(91, 192, 150, 0.9);
+}
+
+.name {
+  font-size: 15px;
+  float: left;
+  margin-top: 6px;
+  padding-left: 10%;
+}
+
+.address {
+  font-size: 8px;
+  float: right;
+  margin-top: 25px;
+}
+
+.btn-wrapper {
+  height: 5px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  /* text-align: center; */
+}
+
+.container {
+  width: 100%;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+
+.btn {
+  float: left;
+  width: 25%;
+}
+
+.btn-icon {
+  position: relative;
+}
+
+.btn-icon p {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  color: black;
+}
+
+.message-wrapper {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #00BCD4;
+  background: #e4fcff;
+  border-top: solid 6px #1dc1d6;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+}
+
+.message-wrapper h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.message-wrapper p {
+  margin: 0;
+  padding: 0;
+}
+
+.middle-wrapper h2 {
+  position: relative;
+}
+
+.middle-wrapper h2:after {
+  content: "お知らせ" "○○とは(説明)";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: -webkit-repeating-linear-gradient(-45deg,#6ad1c8,#6ad1c8 2px,#fff 4px);
+  background: repeating-linear-gradient(-45deg,#6ad1c8,#6ad1c8 2px,#fff 4px);
+}
+
+.explanation-wrapper {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #00BCD4;
+  background: #e4fcff;
+  border-top: solid 6px #1dc1d6;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+}
+
+.explanation-wrapper h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.explanation-wrapper p {
+  margin: 0;
+  padding: 0;
+}
+
+.under-wrapper h2 {
+  position: relative;
+}
+
+.under-wrapper h2:after {
+  content: "お問い合わせ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: -webkit-repeating-linear-gradient(-45deg,#6ad1c8,#6ad1c8 2px,#fff 4px);
+  background: repeating-linear-gradient(-45deg,#6ad1c8,#6ad1c8 2px,#fff 4px);
+}
